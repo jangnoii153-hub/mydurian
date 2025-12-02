@@ -3,13 +3,13 @@ import { getFirestore, Firestore } from "firebase/firestore";
 import { getAuth, Auth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBD1lpwftzNmjzPE7_Jw2M6wFz_edz6qX4",
-  authDomain: "checklogin-67a92.firebaseapp.com",
-  projectId: "checklogin-67a92",
-  storageBucket: "checklogin-67a92.appspot.com",
-  messagingSenderId: "246538906966",
-  appId: "1:246538906966:web:2e4399caaa96210df23af7",
-  measurementId: "G-X3068LRCWT",
+  apiKey: "AIzaSyCdCW6CjiQgaWGkAigYlHl0ecDPcqgnmEg",
+  authDomain: "mydurian-e9974.firebaseapp.com",
+  projectId: "mydurian-e9974",
+  storageBucket: "mydurian-e9974.firebasestorage.app",
+  messagingSenderId: "786340942412",
+  appId: "1:786340942412:web:e7738f6728f871d9585ae9",
+  measurementId: "G-TQBDM3FHPN"
 };
 
 // Initialize Firebase (singleton pattern)

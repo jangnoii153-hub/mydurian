@@ -30,7 +30,7 @@ export default function LoginPage() {
       const user = userCredential.user;
 
       // Check UID of admin
-      if (user.uid === "46LyYu28VCOHW2UvCspi2aDbpZC3") {
+      if (user.uid === "9dhojMRFM0SqIgkcKPprhgDp46G3") {
         router.push(`/admins/admin?uid=${user.uid}`);
       } else {
         router.push(`/users/home?uid=${user.uid}`);
