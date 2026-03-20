@@ -32,7 +32,11 @@ export default function LoginPage() {
       // Check UID of admin
       if (user.uid === "9dhojMRFM0SqIgkcKPprhgDp46G3") {
         router.push(`/admins/admin?uid=${user.uid}`);
-      } else {
+      }
+      else if (user.uid === "iiXpgInSvXbwMN5zUDbDIU5tHgZ2") {
+        router.push(`/users/home17?uid=${user.uid}`);
+      }
+      else {
         router.push(`/users/home?uid=${user.uid}`);
       }
     } catch (error: any) {
