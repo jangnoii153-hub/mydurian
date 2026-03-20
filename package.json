@@ -2,12 +2,13 @@
   "name": "mydurian-app",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@9.15.4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "vercel-build": "npm install --legacy-peer-deps && next build"
+    "vercel-build": "pnpm install && next build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.80.0",
