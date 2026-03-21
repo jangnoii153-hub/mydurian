@@ -4,7 +4,7 @@ import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
-import NavbarUser from "@/components/NavbarUser";
+import NavbarUser17 from "@/components/NavbarUser17";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 
@@ -531,7 +531,7 @@ function ChartContent() {
   if (loading) {
     return (
       <>
-        <NavbarUser />
+        <NavbarUser17 />
         <main className="pt-20 pb-10 min-h-screen flex items-center justify-center">
           <p className="text-white text-xl">กำลังโหลดข้อมูล...</p>
         </main>
@@ -543,7 +543,7 @@ function ChartContent() {
   if (error) {
     return (
       <>
-        <NavbarUser />
+        <NavbarUser17 />
         <main className="pt-20 pb-10 min-h-screen flex items-center justify-center">
           <p className="text-red-500 text-xl">{error}</p>
         </main>
@@ -557,7 +557,7 @@ function ChartContent() {
 
   return (
     <>
-      <NavbarUser />
+      <NavbarUser17 />
       <main className="pt-20 pb-10">
         <div className="flex flex-wrap justify-center items-center gap-3 px-4 pt-10">
           <button

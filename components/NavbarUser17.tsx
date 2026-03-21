@@ -78,7 +78,10 @@ function NavbarContent17() {
 
         {/* Mobile Menu Button */}
         <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          onClick={(e) => {
+            if (e.detail > 1) return; // ป้องกัน double click
+            setMobileMenuOpen(!mobileMenuOpen);
+          }}
           className="lg:hidden text-white"
           aria-label="Toggle menu"
         >
