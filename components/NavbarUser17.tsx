@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useSearchParams, usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
-function NavbarContent() {
+function NavbarContent17() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const searchParams = useSearchParams();
   const pathname = usePathname();
@@ -112,7 +112,7 @@ function NavbarContent() {
   );
 }
 
-export default function NavbarUser() {
+export default function NavbarUser17() {
   return (
     <Suspense
       fallback={
@@ -123,7 +123,7 @@ export default function NavbarUser() {
         </nav>
       }
     >
-      <NavbarContent />
+      <NavbarContent17 />
     </Suspense>
   );
 }

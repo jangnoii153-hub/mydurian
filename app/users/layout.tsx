@@ -12,7 +12,7 @@
     const pathname = usePathname();
 
     const useNavbarUser17 =
-      pathname === "/users/home17" || pathname === "/users/dashboard17";
+      pathname === "/users/home17" || pathname === "/users/dashboard17" || pathname === "/users/chart17" || pathname === "/users/table17";
 
     return (
       <>
